@@ -44,7 +44,7 @@ hide_menu_style = """
 st.markdown(hide_menu_style,unsafe_allow_html=True)
 
 
-dt = pd.read_csv(r"C:\Users\Acer\PycharmProjects\pythonProject\Book2.csv")
+dt = pd.read_csv(r"Book2.csv")
 pd.set_option('display.max_rows', None)
 print(dt.head())
 # print(dt[dt.isnull()].count())
