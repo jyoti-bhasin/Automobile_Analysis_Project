@@ -1,7 +1,6 @@
 import numpy
 
 from collections import Counter
-import nav_bar
 # for mathematical computation
 import streamlit as st
 import numpy as np
@@ -58,7 +57,7 @@ from customer_seg import get_customer_seg
 print(type(dt))
 import plost
 
-
+import nav_bar
 from nav_bar import navigation_options
 
 a1 = navigation_options()
